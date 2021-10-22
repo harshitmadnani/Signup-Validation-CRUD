@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+
+body {
+  background:white;
+  margin:0;
+  margin-top: -20px;
+  padding: 0;
+  
+ }
+
+.container {
+  display:flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+}
+.container > form {
+  width: 60%;
+  border:1px solid #dfdfdf;
+  padding:20px;
+  border-radius: 5px;
+  background: #fff;
+  align-items: center;
+  justify-content:space-between;
+
+}
+pre {
+  width: 60%;
+  color: #fff;
+  font-size: larger;
+}
+
+button {
+  background: #0563b4;
+  margin-left: 50px;
+  margin-top: 30px;
+  font-size: 20px;
+  border-radius: 5px;
+  color: #fff;
+}
+p {
+  color:red;
+}
+
+
+h3{
+  width: 80px;
+}
+
+.input-fields{
+
+  width: 290px;
+}
+
